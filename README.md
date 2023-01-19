@@ -26,7 +26,7 @@ scene as input to our models to predict accurately.
 |Avg test disp err    |1.2648        |1.3957    |1.2176      |1.236   |
 |Final test disp err  |2.755         |2.6529    |2.543       |2.643   |
 
-More results and graphs are available in [report](./report.pdf)
+More results and graphs are available in [Report](./ProjectReport.pdf)
 ## Conclusion and Discussion
 We have in our work presented different versions of LSTMs
 that can predict human trajectory. By comparing the results of
