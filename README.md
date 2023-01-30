@@ -26,7 +26,20 @@ scene as input to our models to predict accurately.
 |Avg test disp err    |1.2648        |1.3957    |1.2176      |1.236   |
 |Final test disp err  |2.755         |2.6529    |2.543       |2.643   |
 
+Using Vanilla LSTM for predicting 4 steps trajectory
+
+![img](results/lstm_4_steps.png)
+
+Using Vanilla LSTM for predicting 6 steps trajectory
+
+![img](results/lstm_6_steps.png)
+
 More results and graphs are available in [Report](./ProjectReport.pdf)
+
+The complete pileline shows below graphs. The circles are the conformal prediction constraints that are proportional to errors in LSTM for that trajectory step. There are two pedestrians and the triangle is our car
+
+![img](results/pinn_MPC_and_trajectory.png)
+
 ## Conclusion and Discussion
 We have in our work presented different versions of LSTMs
 that can predict human trajectory. By comparing the results of
